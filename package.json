@@ -1,0 +1,60 @@
+{
+  "name": "nexarch-cli",
+  "version": "1.0.0",
+  "description": "CLI to scaffold Clean Architecture for Frontend Projects",
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "bin"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+     "nexarch",
+    "cli",
+    "clean-architecture",
+    "architecture",
+    "scaffolding",
+    "code-generator",
+    "project-generator",
+    "typescript",
+    "nodejs"
+  ],
+  "author": "SudhakaranV17",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^15.0.0",
+    "ejs": "^6.0.1",
+    "fs-extra": "^11.4.0",
+    "inquirer": "^8.2.7",
+    "ora": "^5.4.1"
+  },
+  "devDependencies": {
+    "@types/ejs": "^3.1.5",
+    "@types/fs-extra": "^11.0.4",
+    "@types/inquirer": "^8.2.13",
+    "@types/node": "^26.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^7.0.2"
+  },
+   "repository": {
+    "type": "git",
+    "url": "https://github.com/SudhakaranV17/nexarch-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SudhakaranV17/nexarch-cli/issues"
+  },
+  "homepage": "https://github.com/SudhakaranV17/nexarch-cli#readme",
+  
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "bin": {
+    "nexarch": "./dist/index.js"
+  }
+}
