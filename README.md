@@ -48,6 +48,11 @@ nexarch init
 3. **Clean Slate**: Downloads the framework, installs Tailwind CSS (v4 compatible), and actively deletes messy boilerplate code (e.g. `App.tsx` logos, `page.tsx` default layout).
 4. **Provider Injection**: Automatically creates robust Clean Architecture `providers.tsx` wrappers for Tanstack Query, Axios (with Zod validation), and React Hot Toast, and seamlessly injects them into your root layout!
 
+> [!WARNING]  
+> **Important Scaffolding Rules:**
+> - If you want to scaffold a **brand new Next.js or Vite project**, you MUST run `npx nexarch-cli init` in a completely **empty** directory. Do not run `npm install` first, or the framework generation will fail to prevent overwriting files.
+> - If you want to inject Clean Architecture into an **existing** project, run `nexarch init` and select `None (Existing Project)` when prompted for the framework.
+
 ---
 
 ## 🛠️ Feature & Item Generation

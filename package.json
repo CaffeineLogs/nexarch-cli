@@ -1,6 +1,6 @@
 {
   "name": "nexarch-cli",
-  "version": "1.0.0",
+  "version": "1.0.0-beta.0",
   "description": "CLI to scaffold Clean Architecture for Frontend Projects",
   "main": "dist/index.js",
   "files": [
