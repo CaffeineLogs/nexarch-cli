@@ -13,7 +13,7 @@
     "prepublishOnly": "npm run build"
   },
   "keywords": [
-     "nexarch",
+    "nexarch",
     "cli",
     "clean-architecture",
     "architecture",
@@ -42,19 +42,15 @@
     "ts-node": "^10.9.2",
     "typescript": "^7.0.2"
   },
-   "repository": {
+  "repository": {
     "type": "git",
-    "url": "https://github.com/SudhakaranV17/nexarch-cli.git"
+    "url": "git+https://github.com/SudhakaranV17/nexarch-cli.git"
   },
   "bugs": {
     "url": "https://github.com/SudhakaranV17/nexarch-cli/issues"
   },
   "homepage": "https://github.com/SudhakaranV17/nexarch-cli#readme",
-  
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "bin": {
-    "nexarch": "./dist/index.js"
+    "nexarch": "bin/nexarch.js"
   }
 }
