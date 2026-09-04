@@ -44,12 +44,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SudhakaranV17/nexarch-cli.git"
+    "url": "git+https://github.com/CaffeineLogs/nexarch-cli.git"
   },
   "bugs": {
-    "url": "https://github.com/SudhakaranV17/nexarch-cli/issues"
+    "url": "https://github.com/CaffeineLogs/nexarch-cli/issues"
   },
-  "homepage": "https://github.com/SudhakaranV17/nexarch-cli#readme",
+  "homepage": "https://github.com/CaffeineLogs/nexarch-cli#readme",
   "bin": {
     "nexarch": "bin/nexarch.js"
   }
